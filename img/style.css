@@ -1,0 +1,411 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.ajouhaar-heading {
+    font-family: Arial, sans-serif;
+    color: #e52d2d;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #e52d2d, #8d0d0d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    display: inline-block;
+}
+
+.ajouhaar-heading span {
+    display: block;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px regba(0, 0, 0, 0.6);
+    margin-top: -10;
+}
+
+.halal img{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    position: absolute; 
+    right: 60px; 
+    top: 20px;
+}
+
+/*Add a dark red background color to the top navigation */
+.topnav {
+    background-color: darkred;
+    overflow: hidden;
+}
+
+/*Style the links inside the navigation bar */
+.topnav a{
+float:left;
+color: white;
+text-align:center;
+padding: 20px 50px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/*Change the color of the links on hover */
+.topnav a:hover {
+    background-color: maroon;
+    color:rgb(241, 194, 100);
+}
+
+.hero {
+    background-image: url('img/Hero\ image.jpg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.hero h2 {
+    color: darkred;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+img {
+    image-rendering: auto;
+}
+
+.cta-button{
+    background-color: darkred;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #ff4d4d;
+}
+
+.about-preview{
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-preview h2 {
+    color: darkred;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-preview p {
+    margin-bottom: 20px;
+}
+
+.history {
+    padding: 50px;
+    background-color: white;
+    text-align: left;
+}
+
+.history h2 {
+    color: darkred;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.team {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.team h2 {
+    color: darkred;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.testimonials h2 {
+    text-align: center;
+    color: darkred;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #333
+}
+
+.testimonial p {
+    margin: 5px 0;
+}
+
+.testimonial p:last-child {
+    text-align: right;
+    font-weight: bold;
+    color: darkred;
+}
+
+.contact-form {
+    padding: 50px;
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    color: darkred;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid darkred;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff4d4d;
+}
+
+.contact-info h2 {
+    color: darkred;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.opening-hours {
+    background-color: black;
+    color: rgb(99, 21, 21);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.opening-hours h2 {
+    color: darkred;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.opening-hours ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+opening-hours ul ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.opening-hours li {
+    margin-bottom: 10px;
+}
+
+.opening-hours a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.opening-hours a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: darkred;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 5px solid darkred;
+    border-radius: 10px;
+}
+
+.products {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.products h2 {
+        color: darkred;
+        font-size: 40px;
+        margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 45%;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: crimson;
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   min-height: 15vh;
+}
+
+.site-footer {
+ background-color: #000000;
+ color: #fff;
+ text-align: center;
+ padding: 20px 0;
+ margin-top: auto;
+ width: 100%;
+ position: relative;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    transition: transform 0.3s;
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+}
+
+social-icons img:hover {
+    transform: scale (1.1);
+}
+
+h2, h3 {
+    color: darkred;
+    font-size: 60;
+    margin-bottom: 10px;
+}
+
+p, label, input, textarea {
+    color: white;
+    background-color: black;
+    border: 1px solid darkred;
+    padding: 10px;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
